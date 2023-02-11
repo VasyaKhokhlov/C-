@@ -21,6 +21,7 @@ int count = 0;
 while(count < 0);
 {
     int what = new Random().Next(0, 3);
+    
     if(what == 0);
     {
         x = (x+xa)/2;
@@ -31,6 +32,15 @@ while(count < 0);
         x = (x+xb)/2;
         y = (y+yb)/2;
     }
+    if(what == 2)
+    {
+        x = (x+xc)/2;
+        y = (y+yc)/2;
+    }
+    
+    Console.SetCursorPosition(x, y);
+    Console.WriteLine("+");
+    count = count + 1;
 }
 
 
