@@ -9,7 +9,7 @@ int stg = int.Parse(Console.ReadLine());
 int a1 = stg;
 if ( stg < -99 || stg > 99 )
 {
-    for ( int i = 0; a1 => 999 || a1 <= -999; i++ )
+    for ( int i = 0; a1 > 999 || a1 < -999; i++ )
     {
         a1 = a1 / 10;
     }
@@ -17,7 +17,7 @@ if ( stg < -99 || stg > 99 )
     Console.WriteLine($"Третья цифра заданного числа {stg} -> {a1}");
 }else
 {
-    Console.WriteLine($"Третья цифра нет{stg}");
+    Console.WriteLine($"Третья цифра нет");
 }
 
 
